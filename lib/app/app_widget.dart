@@ -15,7 +15,7 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Sizer(
       builder: (_, o, d) => MaterialApp(
-        title: 'Flutter Slidy',
+        title: 'Marvelpedia',
         theme: ThemeData(primarySwatch: Colors.red),
       ).modular(),
     );
